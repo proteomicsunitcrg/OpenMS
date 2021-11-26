@@ -525,15 +525,11 @@ public:
 
     /// sets the spectrum list
     void setSpectra(const std::vector<MSSpectrum>& spectra);
+    void setSpectra(std::vector<MSSpectrum>&& spectra);
 
     /// adds a spectrum to the list
     void addSpectrum(const MSSpectrum& spectrum);
-
-
-    void addSpectrum(MSSpectrum&& spectrum)
-    {
-      spectra_.push_back(std::forward<MSSpectrum>(spectrum));
-    }
+    void addSpectrum(MSSpectrum&& spectrum);
 
     /// returns the spectrum list
     const std::vector<MSSpectrum>& getSpectra() const;
@@ -543,14 +539,11 @@ public:
 
     /// sets the chromatogram list
     void setChromatograms(const std::vector<MSChromatogram>& chromatograms);
+    void setChromatograms(std::vector<MSChromatogram>&& chromatograms);
 
     /// adds a chromatogram to the list
     void addChromatogram(const MSChromatogram& chromatogram);
-
-    void addChromatogram(MSChromatogram&& chrom)
-    {
-      chromatograms_.push_back(std::forward<MSChromatogram>(chrom));
-    }
+    void addChromatogram(MSChromatogram&& chrom);
 
     /// returns the chromatogram list
     const std::vector<MSChromatogram>& getChromatograms() const;
