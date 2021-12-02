@@ -2809,6 +2809,17 @@ Extensive Protein S‑GlcNAcylation in Human Cells</umod:text>
             <umod:url/>
          </umod:xref>
       </umod:mod>
+      <umod:mod approved="true" date_time_modified="2019-02-07 14-09-39" date_time_posted="2019-02-07 14-09-39" full_name="Propyonyl+Methyl" group_of_poster="guest" title="Propyonyl+Methyl" username_of_poste
+r="admin">
+        <umod:specificity classification="-" hidden="false" position="Anywhere" site="K" spec_group="0">
+          <umod:misc_notes></umod:misc_notes>
+        </umod:specificity>
+        <umod:delta avge_mass="70.0898" composition="C(4) H(6) O" mono_mass="70.041865">
+          <umod:element number="4" symbol="C"/>
+          <umod:element number="6" symbol="H"/>
+          <umod:element number="1" symbol="O"/>
+        </umod:delta>
+      </umod:mod>
       <umod:mod title="Propionyl:13C(3)"
                 full_name="Propionate labeling reagent heavy form (+3amu), N-term &amp; K"
                 username_of_poster="penner"
